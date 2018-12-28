@@ -1,0 +1,2671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T15:20:40</date>
+  <millis>1540761640495</millis>
+  <sequence>0</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.ChatServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>running</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648332</millis>
+  <sequence>1</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>10</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648336</millis>
+  <sequence>2</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>10</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648337</millis>
+  <sequence>3</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>10</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648338</millis>
+  <sequence>4</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>10</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648340</millis>
+  <sequence>5</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>10</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648390</millis>
+  <sequence>6</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>11</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648390</millis>
+  <sequence>7</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>12</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648392</millis>
+  <sequence>8</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>11</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648394</millis>
+  <sequence>9</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>12</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648395</millis>
+  <sequence>10</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>11</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648396</millis>
+  <sequence>11</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>12</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648397</millis>
+  <sequence>13</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>12</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648397</millis>
+  <sequence>12</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>11</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648398</millis>
+  <sequence>14</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>12</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648398</millis>
+  <sequence>15</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>11</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648414</millis>
+  <sequence>16</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>13</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648417</millis>
+  <sequence>17</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>13</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648419</millis>
+  <sequence>18</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>13</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:20:48</date>
+  <millis>1540761648420</millis>
+  <sequence>19</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>13</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029693</millis>
+  <sequence>20</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>14</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029695</millis>
+  <sequence>21</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>14</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029696</millis>
+  <sequence>22</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>14</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029697</millis>
+  <sequence>23</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>14</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029698</millis>
+  <sequence>24</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>14</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029753</millis>
+  <sequence>25</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>15</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029753</millis>
+  <sequence>26</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>16</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029759</millis>
+  <sequence>27</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>16</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029759</millis>
+  <sequence>28</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>15</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029759</millis>
+  <sequence>29</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>16</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029760</millis>
+  <sequence>30</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>15</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029760</millis>
+  <sequence>31</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>16</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029760</millis>
+  <sequence>32</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>15</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029761</millis>
+  <sequence>33</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>16</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:09</date>
+  <millis>1540762029761</millis>
+  <sequence>34</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>15</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:10</date>
+  <millis>1540762030144</millis>
+  <sequence>35</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>17</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:10</date>
+  <millis>1540762030145</millis>
+  <sequence>36</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>17</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:10</date>
+  <millis>1540762030146</millis>
+  <sequence>37</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>17</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:10</date>
+  <millis>1540762030147</millis>
+  <sequence>38</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>17</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032058</millis>
+  <sequence>39</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032061</millis>
+  <sequence>40</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>18</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032063</millis>
+  <sequence>41</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>18</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032064</millis>
+  <sequence>42</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>18</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032065</millis>
+  <sequence>43</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>18</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032113</millis>
+  <sequence>44</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>19</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032114</millis>
+  <sequence>45</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>19</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032114</millis>
+  <sequence>46</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>19</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032115</millis>
+  <sequence>47</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>19</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032116</millis>
+  <sequence>48</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>19</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032120</millis>
+  <sequence>49</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>20</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032122</millis>
+  <sequence>50</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>20</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032124</millis>
+  <sequence>51</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>20</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032126</millis>
+  <sequence>52</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>20</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032127</millis>
+  <sequence>53</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>20</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032251</millis>
+  <sequence>54</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>21</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032254</millis>
+  <sequence>55</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>21</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032256</millis>
+  <sequence>56</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>21</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:12</date>
+  <millis>1540762032257</millis>
+  <sequence>57</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>21</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044273</millis>
+  <sequence>58</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>22</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044274</millis>
+  <sequence>59</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>22</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044277</millis>
+  <sequence>60</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>22</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044278</millis>
+  <sequence>61</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>22</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044281</millis>
+  <sequence>62</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>22</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044323</millis>
+  <sequence>63</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>23</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044324</millis>
+  <sequence>64</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044326</millis>
+  <sequence>65</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>23</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044326</millis>
+  <sequence>66</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>24</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044327</millis>
+  <sequence>67</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>23</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044328</millis>
+  <sequence>68</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>24</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044329</millis>
+  <sequence>69</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>23</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044329</millis>
+  <sequence>70</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>24</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044330</millis>
+  <sequence>71</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>23</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044330</millis>
+  <sequence>72</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>24</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044466</millis>
+  <sequence>73</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>25</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044467</millis>
+  <sequence>74</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>25</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044467</millis>
+  <sequence>75</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>25</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:24</date>
+  <millis>1540762044468</millis>
+  <sequence>76</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>25</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066603</millis>
+  <sequence>77</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>26</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066605</millis>
+  <sequence>78</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>26</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066606</millis>
+  <sequence>79</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>26</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066606</millis>
+  <sequence>80</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>26</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066607</millis>
+  <sequence>81</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>26</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066654</millis>
+  <sequence>82</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>27</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066654</millis>
+  <sequence>83</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>28</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066655</millis>
+  <sequence>84</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>27</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066655</millis>
+  <sequence>85</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>28</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066655</millis>
+  <sequence>86</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>27</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066655</millis>
+  <sequence>87</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>28</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066655</millis>
+  <sequence>88</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>27</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066655</millis>
+  <sequence>89</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>28</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066656</millis>
+  <sequence>90</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>27</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066656</millis>
+  <sequence>91</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>28</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066799</millis>
+  <sequence>92</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>29</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066802</millis>
+  <sequence>93</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>29</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066804</millis>
+  <sequence>94</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>29</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:46</date>
+  <millis>1540762066804</millis>
+  <sequence>95</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>29</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073059</millis>
+  <sequence>96</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>30</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073060</millis>
+  <sequence>97</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>30</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073061</millis>
+  <sequence>98</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>30</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073061</millis>
+  <sequence>99</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>30</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073062</millis>
+  <sequence>100</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>30</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073106</millis>
+  <sequence>101</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>31</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073106</millis>
+  <sequence>102</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>32</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073107</millis>
+  <sequence>104</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>32</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073107</millis>
+  <sequence>103</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>31</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073108</millis>
+  <sequence>105</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>31</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073109</millis>
+  <sequence>106</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>31</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073109</millis>
+  <sequence>107</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>31</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073109</millis>
+  <sequence>108</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>32</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073110</millis>
+  <sequence>109</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>32</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073111</millis>
+  <sequence>110</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>32</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073404</millis>
+  <sequence>111</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>33</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073406</millis>
+  <sequence>112</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>33</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073407</millis>
+  <sequence>113</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>33</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:27:53</date>
+  <millis>1540762073408</millis>
+  <sequence>114</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>33</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124501</millis>
+  <sequence>115</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>34</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124502</millis>
+  <sequence>116</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>34</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124503</millis>
+  <sequence>117</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>34</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124504</millis>
+  <sequence>118</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>34</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124505</millis>
+  <sequence>119</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>34</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124560</millis>
+  <sequence>121</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>36</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124560</millis>
+  <sequence>120</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>35</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124561</millis>
+  <sequence>122</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>36</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124561</millis>
+  <sequence>123</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>35</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124561</millis>
+  <sequence>124</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>36</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124561</millis>
+  <sequence>125</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>35</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124562</millis>
+  <sequence>127</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>35</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124562</millis>
+  <sequence>128</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>35</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124562</millis>
+  <sequence>126</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>36</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124567</millis>
+  <sequence>129</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>36</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124699</millis>
+  <sequence>130</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>37</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124701</millis>
+  <sequence>131</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>37</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124703</millis>
+  <sequence>132</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>37</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:44</date>
+  <millis>1540762124705</millis>
+  <sequence>133</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>37</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131029</millis>
+  <sequence>134</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>38</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131029</millis>
+  <sequence>135</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>38</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131030</millis>
+  <sequence>136</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>38</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131030</millis>
+  <sequence>137</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>38</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131031</millis>
+  <sequence>138</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>38</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131084</millis>
+  <sequence>139</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>39</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131084</millis>
+  <sequence>140</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>40</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131086</millis>
+  <sequence>141</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>39</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131086</millis>
+  <sequence>142</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>40</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131086</millis>
+  <sequence>143</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>39</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131087</millis>
+  <sequence>144</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>40</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131087</millis>
+  <sequence>145</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>39</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131088</millis>
+  <sequence>146</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>40</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131088</millis>
+  <sequence>147</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>39</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131088</millis>
+  <sequence>148</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>40</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131238</millis>
+  <sequence>149</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>41</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131240</millis>
+  <sequence>150</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>41</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131240</millis>
+  <sequence>151</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>41</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:51</date>
+  <millis>1540762131240</millis>
+  <sequence>152</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>41</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:55</date>
+  <millis>1540762135957</millis>
+  <sequence>153</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>42</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:55</date>
+  <millis>1540762135958</millis>
+  <sequence>154</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>42</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:55</date>
+  <millis>1540762135958</millis>
+  <sequence>155</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>42</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:55</date>
+  <millis>1540762135959</millis>
+  <sequence>156</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>42</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:55</date>
+  <millis>1540762135959</millis>
+  <sequence>157</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>42</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136003</millis>
+  <sequence>158</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>43</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136004</millis>
+  <sequence>159</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>44</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136004</millis>
+  <sequence>160</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>43</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136005</millis>
+  <sequence>161</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>43</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136005</millis>
+  <sequence>162</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>44</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136005</millis>
+  <sequence>164</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>44</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136005</millis>
+  <sequence>163</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>43</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136006</millis>
+  <sequence>165</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>43</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136006</millis>
+  <sequence>166</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>44</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136007</millis>
+  <sequence>167</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>44</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136327</millis>
+  <sequence>168</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>45</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136328</millis>
+  <sequence>169</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>45</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136328</millis>
+  <sequence>170</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>45</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:28:56</date>
+  <millis>1540762136329</millis>
+  <sequence>171</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>45</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144749</millis>
+  <sequence>172</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>46</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144750</millis>
+  <sequence>173</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>46</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144751</millis>
+  <sequence>174</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>46</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144751</millis>
+  <sequence>175</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>46</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144751</millis>
+  <sequence>176</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>46</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144799</millis>
+  <sequence>178</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>48</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144798</millis>
+  <sequence>177</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>47</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144799</millis>
+  <sequence>179</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>47</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144799</millis>
+  <sequence>180</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>48</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144799</millis>
+  <sequence>181</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>47</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144799</millis>
+  <sequence>182</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>48</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144800</millis>
+  <sequence>183</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>47</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144800</millis>
+  <sequence>184</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>48</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144800</millis>
+  <sequence>185</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>47</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144800</millis>
+  <sequence>186</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>48</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144945</millis>
+  <sequence>187</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>49</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144946</millis>
+  <sequence>188</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>49</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144946</millis>
+  <sequence>189</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>49</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:04</date>
+  <millis>1540762144947</millis>
+  <sequence>190</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>49</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150932</millis>
+  <sequence>191</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>50</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150934</millis>
+  <sequence>192</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>50</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150935</millis>
+  <sequence>193</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>50</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150936</millis>
+  <sequence>194</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>50</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150936</millis>
+  <sequence>195</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>50</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150984</millis>
+  <sequence>196</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>51</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150984</millis>
+  <sequence>197</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>52</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150984</millis>
+  <sequence>198</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>51</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>200</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>51</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>199</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>52</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>201</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>52</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>202</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>51</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>203</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>52</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>204</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>52</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:10</date>
+  <millis>1540762150985</millis>
+  <sequence>205</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>51</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:11</date>
+  <millis>1540762151295</millis>
+  <sequence>206</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>53</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:11</date>
+  <millis>1540762151296</millis>
+  <sequence>207</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>53</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:11</date>
+  <millis>1540762151297</millis>
+  <sequence>208</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>53</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:11</date>
+  <millis>1540762151298</millis>
+  <sequence>209</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>53</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198261</millis>
+  <sequence>210</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>54</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198262</millis>
+  <sequence>211</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>54</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198262</millis>
+  <sequence>212</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>54</thread>
+  <message>serving index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198262</millis>
+  <sequence>213</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>54</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198262</millis>
+  <sequence>214</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>54</thread>
+  <message>served: index.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>216</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>56</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198311</millis>
+  <sequence>215</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>55</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>218</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>56</thread>
+  <message>request type: GET resource: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>217</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>55</thread>
+  <message>request type: GET resource: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>219</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>56</thread>
+  <message>serving /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>220</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>55</thread>
+  <message>serving /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>221</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>56</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198312</millis>
+  <sequence>222</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>55</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198313</millis>
+  <sequence>223</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>56</thread>
+  <message>served: /js/script.js</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198313</millis>
+  <sequence>224</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>55</thread>
+  <message>served: /css/style.css</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198487</millis>
+  <sequence>225</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>57</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198490</millis>
+  <sequence>226</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>57</thread>
+  <message>request type: GET resource: /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198490</millis>
+  <sequence>227</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>57</thread>
+  <message>serving /favicon.ico</message>
+</record>
+<record>
+  <date>2018-10-28T15:29:58</date>
+  <millis>1540762198491</millis>
+  <sequence>228</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>57</thread>
+  <message>exists? false</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474287</millis>
+  <sequence>229</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>58</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474289</millis>
+  <sequence>230</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>58</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474290</millis>
+  <sequence>231</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>getResponseHeader</method>
+  <thread>58</thread>
+  <message>reponse header: HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: zYax8BypCbUnWgDdEM0gbaP/3u4=
+
+</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474290</millis>
+  <sequence>232</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>58</thread>
+  <message>websocket response sent</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474294</millis>
+  <sequence>233</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>58</thread>
+  <message>websocket serving</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474295</millis>
+  <sequence>234</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>58</thread>
+  <message>message length: 12</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474297</millis>
+  <sequence>235</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>59</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474297</millis>
+  <sequence>236</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>59</thread>
+  <message>request type: GET resource: /body.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474298</millis>
+  <sequence>237</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>59</thread>
+  <message>serving /body.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474298</millis>
+  <sequence>238</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>59</thread>
+  <message>exists? true</message>
+</record>
+<record>
+  <date>2018-10-28T15:34:34</date>
+  <millis>1540762474308</millis>
+  <sequence>239</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serveResource</method>
+  <thread>59</thread>
+  <message>served: /body.html</message>
+</record>
+<record>
+  <date>2018-10-28T15:43:08</date>
+  <millis>1540762988581</millis>
+  <sequence>240</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>58</thread>
+  <message>message length: 2</message>
+</record>
+<record>
+  <date>2018-10-28T15:43:08</date>
+  <millis>1540762988583</millis>
+  <sequence>241</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>58</thread>
+  <message>connection closed</message>
+</record>
+</log>
